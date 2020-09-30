@@ -1,2 +1,2 @@
 language = "python3"
-run = "python 1-basics/input/user_input.py"
+run = "python 1-basics/input/data_types.py"
