@@ -1,4 +1,4 @@
 language = "python3"
-run = "python 1-basics/decisions/simple_decision/comparison_operators.py"
+run = "python 1-basics/decisions/simple_decision/counter.py"
 
 
