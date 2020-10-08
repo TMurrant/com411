@@ -1,4 +1,4 @@
 language = "python3"
-run = "python 1-basics/decisions/nested_decision/nested.py"
+run = "python 1-basics/decisions/or_operator.py"
 
 
