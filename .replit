@@ -1,4 +1,8 @@
 language = "python3"
+<<<<<<< HEAD
 run = "python 1-basics/repetition/while_loop/simple.py"
+=======
+run = "python 1-basics/decisions/nested_decision/nestception.py"
+>>>>>>> 0f0e4c7ce142770812e03555a0e96133c3473695
 
 
