@@ -1,6 +1,6 @@
 language = "python3"
 
-run = "python 1-basics/repetition/while_loop/count.py"
+run = "python 1-basics/repetition/while_loop/len.py"
 
 
 
