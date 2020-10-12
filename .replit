@@ -1,5 +1,9 @@
 language = "python3"
+<<<<<<< HEAD
 run = "python 1-basics/repetition/for_loop/simple.py"
+=======
+run = "python 1-basics/repetition/while_loop/factorial.py"
+>>>>>>> 07643dcb29a611854392724e48c2f4a945e9c0fb
 
 
 
