@@ -1,5 +1,5 @@
 language = "python3"
-run = "python 1-basics/repetition/for_loop/count_down.py"
+run = "python 1-basics/repetition/for_loop/reverse.py"
 
 
 
