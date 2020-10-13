@@ -1,14 +1,3 @@
 language = "python3"
-<<<<<<< HEAD
-run = "python 1-basics/functions/ascii_code.py"
-=======
-<<<<<<< HEAD
-run = "python 1-basics/repetition/nested_loop/nesting.py"
-=======
-run = "python 1-basics/repetition/for_loop/reverse.py"
->>>>>>> 4fc505aa3ffa4819c1022bb23d376f1ef860e21e
-
-
->>>>>>> 40560ad301dbb3366870ead6da6d87325182f220
-
+run = "python 1-basics/functions/ascii_character.py"
 
