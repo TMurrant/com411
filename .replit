@@ -1,3 +1,3 @@
 language = "python3"
-run = "python 1-basics/functions/ascii_character.py"
+run = "python data/lists/simple_list.py"
 
