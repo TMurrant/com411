@@ -1,5 +1,5 @@
 language = "python3"
 
-run = "python data/files/cwd.py"
+run = "python data/files/txt/read.py"
 
 
