@@ -1,5 +1,13 @@
 language = "python3"
 
+<<<<<<< HEAD
 run = "python data/files/txt/read.py"
+=======
+<<<<<<< HEAD
+run = "python data/dicts/simple_dict.py"
+=======
+run = "python data/sets/sorted_list.py"
+>>>>>>> 1e5ec2193c9d81c79afde5687c566fd8f95e089c
+>>>>>>> 14879a803b3a4786b4dc9beb59312cdb4cd277be
 
 
