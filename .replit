@@ -1,6 +1,6 @@
 language = "python3"
 
 
-run = "python data/files/txt/generate.py"
+run = "python visual/plots/simple.py"
 
 
