@@ -1,6 +1,6 @@
 language = "python3"
 
 
-run = "python visual/plots/squares.py"
+run = "python visual/subplots/simple_subplot.py"
 
 
