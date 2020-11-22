@@ -1,6 +1,6 @@
 language = "python3"
 
 
-run = "python visual/subplots/simple_subplot.py"
+run = "python visual/subplots/csv_subplots.py"
 
 
