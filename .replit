@@ -1,6 +1,10 @@
 language = "python3"
 
 
+<<<<<<< HEAD
 run = "python visual/animation/simple.py"
+=======
+run = "python visual/subplots/csv_subplots.py"
+>>>>>>> d565098c3c6d748da48516a7cf42c6b09e5a1d27
 
 
