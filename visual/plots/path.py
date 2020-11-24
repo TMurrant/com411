@@ -5,8 +5,7 @@ def coordinate():
   x = int(input())
   print("please enter the y values")
   y = int(input())
-  values = (x, y)
-  return values 
+  return (x, y) 
 
 def path():
   print("retrieving path...")
@@ -25,7 +24,9 @@ def path():
 
 def run():
   values = path()
-  plt.plot(values, "ro--")
+  plt.plot(values[0], values[1], "ro--")
+  plt.xlabel("x values")
+  plt.ylabel("y values")
   plt.show()
 
 run()
