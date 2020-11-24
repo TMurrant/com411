@@ -1,6 +1,6 @@
 language = "python3"
 
 
-run = "python visual/animation/marker.py"
+run = "python visual/animation/sine.py"
 
 
