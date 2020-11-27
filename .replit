@@ -1,6 +1,6 @@
 language = "python3"
 
 
-run = "python visual/animation/shift_sine.py"
+run = "python visual/animation/squares.py"
 
 
