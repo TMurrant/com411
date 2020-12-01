@@ -13,18 +13,17 @@ class Robot:
     # An instance attribute
     self.name = "Robot"
     self.age = 0
+  
+  def age(self):
+    self.age += 1
 
   # An instance method
   def display(self):
     print(f"I am {self.name}")
-  
-  def __repr__(self):
-    return f'robot(name={self.name}, age={self.age})'
 
 if (__name__ == "__main__"):
   robot = Robot()
   robot.display()
-  print(robot.__repr__())
 
 class Human:
 
@@ -38,13 +37,6 @@ class Human:
   def display(self):
     print(f"I am {self.name}")
 
-  
-  def __str__(self):
-    return f'My name is {self.name} and I am {self.age} years old.'
-  
-
 if (__name__ == "__main__"):
   human = Human()
-  human.__str__()
-  print(human.display())
-  
+  human.display()
