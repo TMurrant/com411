@@ -1,10 +1,6 @@
 language = "python3"
 
+run = "python oop/human_improved.py"
 
-<<<<<<< HEAD
-run = "python oop/human.py"
-=======
-run = "python visual/animation/squares.py"
->>>>>>> 8a85d1d3f44a13c47ea023e079c17ddf7a1d2bb6
 
 
