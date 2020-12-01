@@ -1,6 +1,6 @@
 language = "python3"
 
-run = "python oop/human_improved.py"
+run = "python oop/instance_methods.py"
 
 
 

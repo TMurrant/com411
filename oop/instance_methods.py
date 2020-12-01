@@ -16,6 +16,8 @@ class Robot:
   
   def age(self):
     self.age += 1
+  
+  
 
   # An instance method
   def display(self):
@@ -29,13 +31,22 @@ class Human:
 
   MAX_ENERGY = 100
 
-  def __init__(self):
+  def __init__(self, name=0, age=0, weight=0):
     self.name = "Human"
-    self.age = 0
+    self.age = age
     self.energy = Human.MAX_ENERGY
 
+  def age(self):
+    self.age += 1
+  
+  def eat(self):
+    self.energy += 10
+  
+  def move(self):
+    self.energy -= 35
+
   def display(self):
-    print(f"I am {self.name}")
+    print(f"I am {self.name}, I hame {self.age} years old and my energy is {self.energy}")
 
 if (__name__ == "__main__"):
   human = Human()
