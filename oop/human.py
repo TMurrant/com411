@@ -1,39 +1,30 @@
-class Robot:
+# imports the inheritance class
+from inhabitant import Inhabitant
 
-  # A class attribute
-  laws = "Protect, Obey and Survive"
+class Human(Inhabitant):
 
-  # A class method
-  def the_laws(self):
-    print(Robot.laws)
-
-  # An initialiser (special instance method)
-  def __init__(self):
-
-    # An instance attribute
-    self.name = "Robot"
-    self.age = 0
-
-  # An instance method
-  def display(self):
-    print(f"I am {self.name}")
-
-if (__name__ == "__main__"):
-  robot = Robot()
-  robot.display()
-
-class Human:
-
+   #class (constant) attribute
   MAX_ENERGY = 100
 
-  def __init__(self):
-    self.name = "Human"
-    self.age = 0
-    self.energy = Human.MAX_ENERGY
-
-  def display(self):
-    print(f"I am {self.name}")
-
+  # initialiser, passes the name and age to the inhabitant class
+  def __init__(self, name="Human", age=0):
+    super().__init__(name, age)
+  # print the human class
+  def __str__(self):
+    return f"I am human {self.name}"
+  
 if (__name__ == "__main__"):
-  human = Human()
-  human.display()
+  # create an object of type Human
+  human = Human("Jeff")
+
+  # display the current state of the object
+  print(human)
+
+  # invoke the method move on the object
+  human.move(10)
+
+
+
+
+
+  

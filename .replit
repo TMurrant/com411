@@ -1,6 +1,6 @@
 language = "python3"
 
-run = "python oop/instance_methods.py"
+run = "python oop/robot.py"
 
 
 

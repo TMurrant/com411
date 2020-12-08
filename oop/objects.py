@@ -1,3 +1,4 @@
+
 class Robot:
 
   # A class attribute
@@ -13,11 +14,6 @@ class Robot:
     # An instance attribute
     self.name = "Robot"
     self.age = 0
-  
-  def age(self):
-    self.age += 1
-  
-  
 
   # An instance method
   def display(self):
@@ -31,23 +27,36 @@ class Human:
 
   MAX_ENERGY = 100
 
-  def __init__(self, name=0, age=0, weight=0):
+  def __init__(self):
     self.name = "Human"
-    self.age = age
+    self.age = 0
     self.energy = Human.MAX_ENERGY
 
-  def age(self):
-    self.age += 1
-  
-  def eat(self):
-    self.energy += 10
-  
-  def move(self):
-    self.energy -= 5
-
   def display(self):
-    print(f"I am {self.name}, I hame {self.age} years old and my energy is {self.energy}")
+    print(f"I am {self.name}")
 
 if (__name__ == "__main__"):
   human = Human()
   human.display()
+
+
+
+class planet:
+  
+  humans = []
+  robots = []
+
+  def add_human(self, human):
+    self.humans.append(human)
+  
+  def remove_human(self, human):
+    self.humans.remove(human)
+  
+  def add_robot(self, robot):
+    self.robots.append(robot)
+  
+  def remove_robot(self, robot):
+    self.robots.append(robot)
+  
+  planet = humans()
+  planet.display()
