@@ -1,6 +1,10 @@
 language = "python3"
 
+<<<<<<< HEAD
 run = "python oop/robot.py"
+=======
+run = "python oop/objects.py"
+>>>>>>> 4e77b22fa9d8bac293f1d0275055f74da5c6345a
 
 
 
